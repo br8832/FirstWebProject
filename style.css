@@ -1,0 +1,211 @@
+/* Keep a color to distnguish who is who */
+.coco {
+  color: orange;
+}
+.pekora {
+  color: blue;
+}
+.haachama{
+  color: red;  
+}
+  /*navigation list section*/
+.Sections{
+  margin: 0;
+  padding: 0;
+  flex-direction: row;
+}
+.Sections ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.Sections li{
+  display: inline;
+  text-decoration: none;
+  color: white;
+  font-size: 1.8em;
+}
+.SectionsItem{
+  margin: 0;
+  padding-right: 20px;
+  padding-left: 20px;
+  display: inline;
+  text-decoration: none;
+  color: #037916;
+  font-size: 1.0em;
+  font-weight: bold;
+}
+.SectionsPresent{
+  margin: 0;
+  padding-right: 20px;
+  padding-left: 20px;
+  display: inline;
+  text-decoration: none;
+  color: green;
+  background-color: #020f4b; 
+  font-size: 1.0em;
+  font-weight: bold;
+}
+/*highlights when the mouse hovers to that nav*/
+.SectionsItem:hover{
+  background-color:  #a1dcf8;
+  color: yellow;
+}
+/* General HTML*/
+html {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 120%;
+  background-image: url(https://cdn.glitch.com/63c0e43d-593b-46ca-b161-13a8cdfffe65%2F3825473.jpg?v=1613444418788);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: auto;
+}
+body {
+  background: #cbfbfd;
+  width: 85%;
+	margin: 1% auto;
+	line-height: 1.5;
+}
+h1, h2, h3, h4, h5, h6, p{
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: rgb(255, 255, 255);
+}
+h1 {
+	font: 3.2em Verdana, Geneva, sans-serif;
+	margin-bottom: .4em;
+  color: #47053c;
+  text-align: center;
+	padding-bottom: .2em;
+	border-bottom: medium solid gray;
+}
+h2 {
+	font: 2em Georgia, "Times New Roman", Times, serif;
+	margin-bottom: .15em;
+  color: #9b1084;
+}
+h3 {
+	font-size: 1.2em;
+  color: #d405b2;
+}
+p {
+  margin-left: 0px;
+  overflow:auto;
+  display:block;
+  padding-bottom:.25em;
+  font-size: 1.1em;
+}
+table {
+	margin-top: 1em;
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+aside {
+	padding: 1em;
+	background:rgb(83, 104, 138);
+	color: #fd5fe8;
+	margin-bottom: 1em;
+}
+footer {
+	border-top: 1px solid gray;
+	text-align: center;
+	font-size: 1.8em;
+	margin-top: 1em;
+}
+iframe{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  height: 180px;
+  width: 330px;
+}
+td, th {
+	padding: 10px;
+  text-align: center;
+}
+/*List properties*/
+ol {
+  list-style: none;
+  margin: 0 auto;
+}
+dl {
+  display: table;
+  margin: 0 auto;
+  text-align: center; 
+}
+dt {
+	font-style: italic;
+	font-size:3em;
+  margin-top: .5em;
+}
+/*Manipulate certain areas with classes and selectors*/
+dd p
+{
+  font-size: 1.5em;
+}
+img.portrait{
+  width: 600px;
+  height: 600px;
+  float: right;
+  clear: both;
+}
+td ruby{
+  font-size: 2.5em;
+}
+ruby.text{
+  font-size: 1.5em;
+}
+
+aside p {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+}
+aside img {
+  height: 400px; 
+  width: 400px;
+}
+.flowRight {
+	float: right;
+	margin-left: 10px;  
+  width: 575px; 
+  height: 300px; 
+}
+/*Center elements*/
+.marginauto {
+  margin: 10px auto 20px;
+  display: block;
+}
+
+iframe.center {
+  width: 840px;
+  height: 650px;
+  border-style:none;
+}
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+/*To put two items side by side*/
+.flexbox{
+  display: flex;  
+  align-items: start;
+  padding-top: 20px;
+}
+.flexbox-item {
+  flex: 1;
+  text-size: 2em;
+}
+.flexbox-item1 {
+  flex: 1;
+  font-size: 1.25em;
+  font-family: Palatino;
+  font-weight: 500;
+  justify-content: start;
+}
+
+
